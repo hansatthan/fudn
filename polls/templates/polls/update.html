@@ -1,0 +1,13 @@
+{% for x in data %}
+<div class="row" rid="{{x.id}}">
+    <div class="cell" data-title="Name">
+        {{x.name}}
+    </div>
+    <div class="cell" data-title="Comment">
+        {{x.comment}}
+    </div>
+    <div class="cell" data-title="Label">
+        {{x.predicted}}
+    </div>
+</div>
+{% endfor %}
